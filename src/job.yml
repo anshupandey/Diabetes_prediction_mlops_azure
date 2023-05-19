@@ -9,7 +9,7 @@ inputs:
   training_data: 
     type: uri_folder 
     path: azureml://subscriptions/4980acc2-d47d-47e6-8498-a6b0744658d8/resourcegroups/EYMAY/workspaces/aml-workspace/datastores/workspaceblobstore/paths/UI/2023-05-18_063342_UTC/
-  reg_rate: 0.01
+  reg_rate: 0.02
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: cpu-cluster
 experiment_name: diabetes-mlops
